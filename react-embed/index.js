@@ -5865,5 +5865,4 @@ function App() {
 function renderToStringEmbed() {
   return server.renderToString( /*#__PURE__*/react.exports.createElement(App, null));
 }
-
-renderToStringEmbed().toString();
+global$1.__embed = renderToStringEmbed;
