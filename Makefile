@@ -2,4 +2,4 @@ build-embed:
 	(cd web/ && pnpm rollup:embed)
 
 run-go:
-	cargo run
+	cargo run --release
